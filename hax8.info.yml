@@ -1,6 +1,0 @@
-name: 'Hax8'
-description: 'A completely Headless Authoring eXperience, #haxtheweb, yall, #haxtheweb'
-# core: 8.x
-dependencies:
-type: module
-configure: hax8.form
