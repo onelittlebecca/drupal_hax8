@@ -1,0 +1,7 @@
+name: HAX
+description: 'A completely Headless Authoring eXperience, #haxtheweb.'
+core: 8.x
+dependencies:
+  - libraries
+  - webcomponents
+type: module

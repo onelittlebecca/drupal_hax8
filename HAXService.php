@@ -1,5 +1,4 @@
 <?php
-namespace Drupal\hax;
 
 class HAXService {
 
