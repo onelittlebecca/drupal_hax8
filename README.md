@@ -4,6 +4,7 @@ whatever your workflow is. If you don't currently have bower you can get it via
 `npm install -g bower`
 
 ## no Webcomponents installed yet
+
 Create a directory for webcomponents to live in for the system. This is
  recommended from Drupal root as:
 
@@ -20,6 +21,7 @@ Run bower install to get dependencies in place:
 Skip the next heading
 
 ## What if I already had webcomponents?
+
 Go to polymer directory :
 `cd libraries/webcomponents/polymer`
 
@@ -31,11 +33,19 @@ webcomponentsjs 0.7.x and polymer 1.11.x as of this writing. You will have the
 dependencies needed.
 
 ## Usage
-This should give you the dependencies you need to get going. Enable the module
-and go to the permissions page to ensure uses have the 'use hax' permission
-checked. Once this is checked then people will start to see a 'HAX Authoring'
-local menu item / tab / contextual option show up when they have access to edit
-a node.
+
+This should give you the dependencies you need to get going.
+1. Enable the HAX module and any dependencies it requires.
+2. Go to the permissions page to ensure users have the 'use hax' permission
+   checked. Once this is checked then people will start to see a 'HAX Authoring'
+   local menu item / tab / contextual option show up when they have access to
+   edit a node. If you want users to be able to upload files, grant the
+   'Upload files via HAX editor' permission.
+
+NOTE on Text Formats: HAX is designed to work with nodes with bodies in the
+default Full HTML format where "Limit allowed HTML tags and correct faulty HTML"
+is unchecked, or with formats with similarly permissive settings. For this
+reason, it is advisable to only allow trusted users to access HAX.
 
 ## Settings
 

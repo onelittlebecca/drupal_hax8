@@ -1,7 +1,10 @@
 name: HAX
 description: 'A completely Headless Authoring eXperience, #haxtheweb.'
-core: 8.x
-dependencies:
-  - libraries
-  - webcomponents
+# core: 8.x
 type: module
+
+# Information added by Drupal.org packaging script on 2018-07-24
+version: '8.x-2.0-beta1'
+core: '8.x'
+project: 'hax'
+datestamp: 1532391185
